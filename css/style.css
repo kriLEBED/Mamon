@@ -1,6 +1,5 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-color: #e5e5e5;
 }
 .header{
     width: 100%;
@@ -21,6 +20,7 @@ body{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
+    box-sizing: border-box;
 }
 .nav{
     display: flex;
@@ -96,8 +96,32 @@ body{
     font-weight: 300;
     color: #C2C2C2;
     padding: 5px 15px;
-    background-color: #e5e5e5;
+    background-color: #ffffff;
 }
 .services{
     display: grid;
+    grid-template: 50% 50% / 50% 50%;
+}
+.services-item{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.services_img{
+    flex-basis: 120px;
+    text-align: center;
+}
+.services_text{
+    flex-basis: calc(100% - 120px);
+}
+.services h3{
+    font-size: 28px;
+    font-weight: 400;
+    color: #000000;
+}
+.services p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #b2b2b2;
+    line-height: 1.5;
 }
