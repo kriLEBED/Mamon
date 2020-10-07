@@ -14,6 +14,11 @@ body{
     box-sizing: border-box;
     font-weight: 700;
 }
+.footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f7f7f7;
+}
 .wrap{
     width: 100%;
     max-width: 1180px;
@@ -146,4 +151,23 @@ body{
 }
 .team-item>div{
     flex-basis: calc(100% - 100px);
+}
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.social{
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+}
+.social>li{
+    margin-left: 15px;
+}
+.social>li>a{
+    text-decoration: none;
+    color: #b2b2b2;
+    font-size: 24px;
 }
