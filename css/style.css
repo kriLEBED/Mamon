@@ -3,14 +3,14 @@ body{
 }
 .header{
     width: 100%;
-    max-width: 1180px;
+    max-width: 1212px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 30px;
+    padding-top: 56px;
     box-sizing: border-box;
     font-weight: 700;
 }
@@ -21,7 +21,7 @@ body{
 }
 .wrap{
     width: 100%;
-    max-width: 1180px;
+    max-width: 1212px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -35,7 +35,7 @@ body{
     align-items: center;
 }
 .nav>li{
-    margin-left: 15px;
+    margin-left: 38px;
 }
 .nav>li>a{
     text-decoration: none;
@@ -45,7 +45,7 @@ body{
     color: #ffffff;
     border-radius: 5px;
     background-color: #5528ff;
-    padding: 10px 15px ;
+    padding: 4px 14px ;
     border: none;
     font-weight: 700;
 }
@@ -59,7 +59,7 @@ body{
     width: 58px;
     height: 58px;
     background-image: url(../img/logo.svg.svg);
-    margin-right: 20px;
+    margin-right: 25px;
 }
 .logo_text{
     font-size: 24px;
@@ -67,28 +67,32 @@ body{
     text-align: center;
 }
 .title-main{
-    font-size: 56px;
+    font-size: 55px;
     font-weight: 700;
     color: #202020;
+    letter-spacing: 0.94px;
+    margin-bottom: 0.4em;
 }
 .text-main{
     font-size: 32px;
     font-weight: 400;
     color: #4F4F4F;
-    line-height: 1.5;
+    line-height: 1.6;
+    max-width: 750px;
+    margin-bottom: 2.1em;
 }
 .button{
     color: #ffffff;
     border-radius: 10px;
     background-color: #5528ff;
-    padding: 10px 45px ;
+    padding: 17px 58px;
     border: none;
     font-weight: 400;
     font-size: 24px;
 }
 .page{
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 80px;
+    padding-bottom: 109px;
     position: relative;
 }
 .page-top{
@@ -96,7 +100,7 @@ body{
 }
 .page h2{
     position: absolute;
-    top: -25px;
+    top: -27px;
     font-size: 14px;
     font-weight: 300;
     color: #C2C2C2;
@@ -105,7 +109,8 @@ body{
 }
 .services{
     display: grid;
-    grid-template: 50% 50% / 50% 50%;
+    grid-template: repeat(2, 1fr) / 50% 50%;
+    grid-row-gap: 38px;
 }
 .services-item{
     display: flex;
@@ -113,16 +118,18 @@ body{
     align-items: center;
 }
 .services_img{
-    flex-basis: 120px;
+    flex-basis: 165px;
     text-align: center;
 }
 .services_text{
-    flex-basis: calc(100% - 120px);
+    flex-basis: calc(80% - 165px);
 }
 .services h3{
     font-size: 28px;
     font-weight: 400;
     color: #000000;
+    margin-bottom: 17px;
+    margin-top: 0;
 }
 .services p{
     font-size: 14px;
@@ -134,12 +141,14 @@ body{
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(4, 25%);
     text-align: center;
-    grid-row-gap: 40px;
+    grid-row-gap: 44px;
+    padding-top: 0;
 }
 .team{
     display: grid;
     grid-template: repeat(3, 1fr) / repeat(3, 1fr);
-    grid-row-gap: 40px;
+    grid-row-gap: 51px;
+    padding-top: 20px;
 }
 .team-item{
     display: flex;
@@ -147,16 +156,25 @@ body{
     align-items: center;
 }
 .team-item img{
-    margin-right: 20px;
+    margin-right: 35px;
 }
 .team-item>div{
     flex-basis: calc(100% - 100px);
+}
+.team-item h3{
+    font-size: 28px;
+    color: #202020;
+    margin-bottom: 0;
+    margin-top: 7px;
+}
+.team-item p{
+    font-size: 14px;
+    color: #b2b2b2;
 }
 .box-footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 .social{
     display: flex;
@@ -164,7 +182,7 @@ body{
     padding-left: 0;
 }
 .social>li{
-    margin-left: 15px;
+    margin-left: 40px;
 }
 .social>li>a{
     text-decoration: none;
